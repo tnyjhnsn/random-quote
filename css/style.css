@@ -1,0 +1,65 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:300|Slabo+27px';
+
+body {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  background-color: #000000;
+  font-family: Lato, sans-serif;
+  text-align: center;
+}
+.box {
+  background-image: url("https://www.dropbox.com/s/46bsc0g015aty02/grass2.jpg");
+  background-size: 800px;
+  background-repeat: no-repeat;
+  border: 1px solid #FFFFFF;
+  border-radius: 2px;
+  width: 450px;
+  padding: 20px;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+.quote-marks {
+  color: #A06A00;
+  font-size: 2em;
+}
+#quote {
+  font-family: 'Slabo 27px', cursive;
+  font-size: 2em;
+}
+#author {
+  margin-top: 10px;
+  font-size: 1em;
+}
+.buttons {
+  margin-top: 30px;
+}
+button {
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #f5f5f5;
+  border-radius: 50%;
+  color: #f5f5f5;
+  background: #A06A00;
+  font-size: 1.5em;
+}
+button:hover {
+  opacity: 0.7;
+}
+button:focus {
+  outline: none;
+}
+#twitter {
+  background: #003A67;
+}
+#provider {
+  margin-top: 15px;
+  color: gray;
+}
+#credit {
+  color: gray;
+}
+a, a:hover, a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
+}
